@@ -120,10 +120,10 @@ function App() {
   return (
     <>
       <div className="container mx-auto flex flex-col items-center mt-10">
-        <div className="py-2 px-6 border mb-3 border-sky-500 text-sky-950">
+        <div className="py-2 px-6 border mb-3 border-sky-500 text-sky-950 ">
           <span className="font-medium text-2xl rounded">{`مدت : ${time} ثانیه`}</span>
         </div>
-        <div className="bg-sky-800 w-[350px] h-[350px] lg:w-[850px] lg:h-[850px] p-5 lg:p-10 flex justify-center items-center">
+        <div className="bg-sky-800 w-[350px] h-[350px] lg:w-[850px] lg:h-[850px] p-5 lg:p-10 flex justify-center items-center shadow-lg rounded">
           <div className="grid grid-cols-4 gap-y-4 gap-x-4 lg:gap-x-6">
 
             {cards.map(item=>{
